@@ -51,6 +51,7 @@ public class DiceGameRunner {
             System.out.println("Your Current Score "+number);
             if(currentPlayer.isSkipNext()){
                 System.out.println("Since you have two 1's previous ,you need to skip this one as penalty");
+                currentPlayer.setSkipNext(false);
                 continue;
             }
             currentPlayer.setSkipNext(number == DiceConstant.PENALTY_VAL && number == currentPlayer.getPreviousScore());
