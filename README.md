@@ -2,14 +2,14 @@
 
 #### Build & Instruction
 
-####Env
+#### Env
 1. Maven 3.6.0
 2. Java 8
 
 
 ### Assumption
-# Rank should be assigned only when points are earned
-# sysout has been used instead of logging
+#### Rank should be assigned only when points are earned
+#### sysout has been used instead of logging
 
 
 #### How to Run
