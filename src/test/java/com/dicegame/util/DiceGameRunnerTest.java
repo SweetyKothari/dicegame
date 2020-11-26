@@ -1,5 +1,5 @@
 package com.dicegame.util;
-import org.junit.Rule;
+import com.dicegame.helper.DiceGameRunner;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

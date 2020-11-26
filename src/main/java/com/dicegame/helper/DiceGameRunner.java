@@ -1,6 +1,8 @@
-package com.dicegame.util;
+package com.dicegame.helper;
 
 import com.dicegame.model.Player;
+import com.dicegame.util.DiceConstant;
+import com.dicegame.util.DiceRoller;
 
 import java.util.*;
 
@@ -39,7 +41,6 @@ public class DiceGameRunner {
         if(playerMap ==null){
             return ;
         }
-        System.out.println("playerMap size "+playerMap.size());
         Iterator<String> it = playerMap.keySet().iterator();
         while (it.hasNext()) {
             String currentPlayerName=it.next();

@@ -1,6 +1,6 @@
 package com.dicegame;
 
-import com.dicegame.util.DiceGameRunner;
+import com.dicegame.helper.DiceGameRunner;
 import com.dicegame.util.DiceUtil;
 
 /**
